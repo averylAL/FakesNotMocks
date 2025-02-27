@@ -18,6 +18,7 @@ public class Cash {
     @Override
     public String toString() {
         return "Cash{" +
+                //"exchange=" + exchange.getClass().getSimpleName() + //debug
                 "exchange=" + exchange +
                 ", cents=" + cents +
                 '}';
