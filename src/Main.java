@@ -21,12 +21,11 @@ public class Main {
 //----------------Fake Exchange for Cash, Replace NYSE with FakeExchange-------------------------------
 /**
  * Class FakeExchange is to avoid external API calls
- * return a fixed exchange rate for unit testing
+ * return a fixed exchange rate for unit testing (can return anything bkz it's a fake class)
  */
 class FakeExchange implements Exchange {
     @Override
     public float rate(String origin, String target) {
-        //System.out.println("Exchange requested: " + origin + " to " + target); // debug
         if (origin.equals(target)) {
             return 1.0f; 
         } 
