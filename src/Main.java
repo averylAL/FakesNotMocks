@@ -11,10 +11,10 @@ public class Main {
         // Test 'in' method of Cash
         Cash euro = dollar.in("Euro");
         System.out.println("Dollar to Euro: " + euro.toString());
-        Cash usd = dollar.in("USD");
-        System.out.println("Dollar to Dollar: " + usd.toString());
-        Cash jpy = dollar.in("JPY");
-        System.out.println("Dollar to JPY: " + jpy.toString());
+        // Cash usd = dollar.in("USD");
+        // System.out.println("Dollar to Dollar: " + usd.toString());
+        // Cash jpy = dollar.in("JPY");
+        // System.out.println("Dollar to JPY: " + jpy.toString());
     }
 }
 
